@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imagen3"
+    android:background="@drawable/imagen1"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,9 +13,10 @@
         android:layout_height="wrap_content"
         android:background="#000000"
 
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Conversor de Moneda"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="#FFEB3B"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -28,9 +29,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Dólares"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFEB3B"
+        android:textColor="#F4F4EF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -45,9 +47,10 @@
         android:background="#050505"
         android:backgroundTint="#000000"
         android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
         android:inputType="textPersonName"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFEB3B"
+        android:textColor="#EFEFEF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,9 +62,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Euros"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFEB3B"
+        android:textColor="#FBFBFB"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -76,6 +80,7 @@
         android:background="#000000"
         android:backgroundTint="#000000"
         android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
         android:inputType="textPersonName"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#FFEB3B"
@@ -88,32 +93,38 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="99dp"
+        android:layout_width="199dp"
+        android:layout_height="92dp"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etEuros"
-        app:layout_constraintVertical_bias="0.13">
+        app:layout_constraintVertical_bias="0.116">
 
         <RadioButton
             android:id="@+id/rbEuroADolar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#000000"
+            android:layout_height="35dp"
+            android:layout_marginBottom="25dp"
+            android:background="#FF9800"
+            android:backgroundTint="#C6FFFFFF"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="Euros a Dólares"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#FFEB3B" />
+            android:textColor="#000000" />
 
         <RadioButton
             android:id="@+id/rbDolarAEuro"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#000000"
+            android:layout_height="35dp"
+            android:background="#FF9800"
+            android:backgroundTint="#C6FFFFFF"
+            android:fontFamily="sans-serif-smallcaps"
             android:text="Dólares a Euros"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-            android:textColor="#FFEB3B" />
+            android:textColor="#000000" />
     </RadioGroup>
 
     <TextView
@@ -121,9 +132,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#000000"
+        android:fontFamily="sans-serif-smallcaps"
         android:text="Cambio a..."
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFEB3B"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -137,9 +149,10 @@
         android:layout_marginTop="20dp"
         android:background="#000000"
         android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
         android:inputType="textPersonName"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#FFEB3B"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -151,7 +164,7 @@
         android:id="@+id/btConvertir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#FFEB3B"
+        android:background="#C310100F"
         android:text="CONVERTIR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
