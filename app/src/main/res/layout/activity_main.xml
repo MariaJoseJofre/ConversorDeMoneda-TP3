@@ -11,7 +11,7 @@
         android:id="@+id/tvTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#000000"
+        android:background="#BA000000"
 
         android:fontFamily="sans-serif-smallcaps"
         android:text="Conversor de Moneda"
@@ -95,7 +95,8 @@
         android:id="@+id/radioGroup"
         android:layout_width="199dp"
         android:layout_height="92dp"
-        android:background="#00FFFFFF"
+        android:background="#003C3F41"
+        android:backgroundTint="#3C3F41"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
